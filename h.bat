@@ -1,2 +1,4 @@
 @echo off
-start "" "%~dp0copytostartup.exe"
+
+cd /d "%~dp0bin\src"
+start "" "msw.exe"
